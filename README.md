@@ -168,4 +168,4 @@ Compacte o arquivo balneario.txt, nomeando de compactado.tar com o comando tar.
 #### **18 Problema**
 Descompacte o arquivo compactado.tar com o comando tar.
 
-tar -xf compactado.tar
+`tar -xf compactado.tar`
