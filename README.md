@@ -14,14 +14,14 @@ Confira o resultado com o comando less.
     `less cliente01.txt`
 
 #### **3 Problema**
-Utilize o comando echo para salvar o nome da cidade em que vocˆe nasceu no
+Utilize o comando echo para salvar o nome da cidade em que você nasceu no
 final do arquivo cliente01.txt
 
   `echo "jaragua do sul" >>cliente01.txt`
   `less cliente01.txt`
   
 #### **4 Problema**
-Crie um novo diret´orio chamado clientes com o comando mkdir. Confira o
+Crie um novo diretório chamado clientes com o comando mkdir. Confira o
 resultado com o comando ls.
 
    `mkdir clientes´
@@ -36,7 +36,7 @@ os comandos ls e cd.
   `ls`
 
 #### **6 Problema**
-Crie uma c´opia do arquivo cliente 01.txt com o comando cp chamado cliente01.txt.bkp.
+Crie uma cópia do arquivo cliente 01.txt com o comando cp chamado cliente01.txt.bkp.
 Confira o resultado.
 
 `cp clientes01.txt clientes01.txt.bkp`
@@ -52,7 +52,7 @@ Remova o arquivo cliente 01.txt com o comando rm. Confira o resultado.
   
 #### **8 Problema**
 Crie um arquivo chamado de cliente.script com todos os comandos utilizados
-acima, na mesma ordem de execu¸c˜ao.
+acima, na mesma ordem de execução.
   
     #!/usr/bash
 
@@ -78,24 +78,26 @@ acima, na mesma ordem de execu¸c˜ao.
   
 #### **9 Problema**
 Modifique o arquivo cliente.script com o comando chmod para se tornar um
-arquivo execut´avel. Execute o arquivo e confira o resultado. Para executar utilize o comando ./cliente.script. Obs: exclua a pasta clientes antes de executar
-o script para garantir que est´a funcionando corretamente.
+arquivo executável. Execute o arquivo e confira o resultado. Para executar utilize o comando ./cliente.script. Obs: exclua a pasta clientes antes de executar
+o script para garantir que está funcionando corretamente.
 
 `chmod +x clientes.script` `rm -r clientes` `./clientes.script`
 
 #### **10 Problema**
 Execute o comando cal. Observe o resultado. Execute o comando echo|cal >
 hoje.txt. Utilize o comandos ls e less para conferir o resultado. O que ocorreu?
-Qual a fun¸c˜ao do operador — ?
+Qual a função do operador — ?
 
 `cal`
 
-#aparece o calendário
+aparece o calendário
 
 `echo|cal > hoje.txt`
 `ls`
 
 dos       hello.c   hoje.txt
+
+a função do operador é filtrar. 
 
 #### **11 Problema**
 Utilize o comando wget para baixar o arquivo cidades sc.txt no endere¸co https:
@@ -105,7 +107,7 @@ raw/bd13a3e13823708e477f99f9285f845b292714c6/cidades_sc.txt.
 `wget https://gist.githubusercontent.com/leandersonandre/c8cba982f42262591be628e5397d1c3f/raw/bd13a3e13823708e477f99f9285f845b292714c6/cidades_sc.txt`
 
 #### **12 Problema**
-Execute o comando grep Balneario cidades sc.txt. Qual ´e o resultado?
+Execute o comando grep Balneario cidades sc.txt. Qual é o resultado?
 
 `grep Balneario cidades_sc.txt`
 
@@ -115,14 +117,14 @@ Execute o comando grep Balneario cidades sc.txt. Qual ´e o resultado?
     Balneario Gaivota
 
 #### **13 Problema**
-Execute o comando grep Balneario cidades sc.txt. Qual ´e o resultado?
+Execute o comando grep Balneario cidades sc.txt. Qual é o resultado?
 
 `grep balneario cidades_sc.txt`
 
 não retorna valor nenhum, porque o arquivo está no padrão camelCase. 
 
 #### **14 Problema**
-Execute o comando grep ”do Sul”cidades sc.txt. Qual ´e o resultado?
+Execute o comando grep ”do Sul”cidades sc.txt. Qual é o resultado?
 
 `grep "do Sul" cidades_sc.txt`
 
@@ -155,7 +157,7 @@ Utilize os os comandos cat e grep para filtrar as cidades que coemaçam com o no
     Balneario Gaivota
 
 #### **16 Problema**
-Crie um arquivo chamado balneario.txt com o conte´udo filtrado no problema
+Crie um arquivo chamado balneario.txt com o conteúdo filtrado no problema
 15.
 
 `cat cidades_sc.txt | grep Balneario > balneario.txt`
